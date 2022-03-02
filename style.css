@@ -21,10 +21,7 @@ body {
   max-width: 1400px;
   margin: auto;
 }
-section {
-  width: 100%;
-  min-height: 500px;
-}
+
 h2 {
   font-family: "Roustel";
   font-size: 60px;
@@ -35,8 +32,8 @@ h2 {
 .header {
   width: 100%;
   height: 360px;
-  background-image: url('images/DSC_0770.JPG');
-  background-position: 0%;
+  background-image: url('images/DSC_0814.JPG');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -82,7 +79,27 @@ h2 {
   margin-top: 2px;
 }
 /* Sections  */
+section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 2px;
+}
+section .texte {
 
-.fonctionnement {
-  background-color: #e6b9b8;
+  padding: 20px;
+  width: 50%;
+  height: 93%;
+  display: flex;
+  align-items: center;
+}
+
+section .image {
+  width: 50%;
+  height: 100%;
+}
+
+section .image img{
+  width: 100%;
+
 }
