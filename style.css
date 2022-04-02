@@ -78,14 +78,31 @@ a {
 section {
   padding: 25px;
 
+
 }
 section p{
   line-height: 2;
 }
 
+section.fonctionnement h2{
+
+  text-align: right;
+}
+
+section.image{
+
+  width: 100%;
+  height: 400px;
+  padding: 0;
+}
+section img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 .bandeau {
   height: 300px;
-  background-color: #583C37;
+  background-color: #6F1F29;
   color: rgb(246, 245, 245);
   margin: 0;
   display: flex;
